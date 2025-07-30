@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <main>
+    <!-- <main>
         <h1>
             Formulaire de contact Pokémon
         </h1>
@@ -51,7 +51,7 @@
         echo '<button type="submit" name="envoyer">Envoyer</button>';
         echo '</form>';
     }
-    ?>
+    ?> -->
 
     <!-- correction -->
 
@@ -73,7 +73,9 @@
                 <label for="message">message</label>
                 <textarea id="message" name="message" type="text" required placeholder="Entrer votre message"></textarea>
             </div>
-
+            <div>
+                <input type="submit" value="Envoyer">
+            </div>
 
         </form>
 </body>
